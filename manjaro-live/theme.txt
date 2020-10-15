@@ -43,7 +43,7 @@ terminal-border: "0"
     selected_item_font = "Terminus 16"
     selected_item_color = "#1ABB9B"
     selected_item_pixmap_style = "select_*.png"
-    menu_pixmap_style = "menu_*.png"
+    #menu_pixmap_style = "menu_*.png"
 }
 
 #+ progress_bar {
@@ -75,8 +75,8 @@ terminal-border: "0"
     left = 50%-125
     top = 80%
     width = 250
-    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↵] Boot selected OS" }
-    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↑ and ↓ Key] Navigation" }
-    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[E] Edit Selection" }
+    #+ label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↵] Boot selected OS" }
+    #+ label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↑ and ↓ Key] Navigation" }
+    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[E] Edit Boot Options" }
     + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[C] GRUB Commandline" }
 }
