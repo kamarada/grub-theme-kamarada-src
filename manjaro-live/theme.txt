@@ -3,7 +3,7 @@ title-font: "DejaVu Sans Regular 48"
 message-font: "Terminus 16"
 message-color: "#7f8c8d"
 message-bg-color: "#4d4d4d"
-desktop-color: "#000000"
+desktop-color: "#24282c"
 desktop-image: "background.png"
 terminal-font: "Terminus 14"
 terminal-left: "0"
@@ -14,20 +14,9 @@ terminal-border: "0"
 
 # Logo image
 + image {
-  left = 30%-250
-  top = 10%-10
+	left = 30%-250
+	top = 10%-10
     file = "logo.png"
-}
-
-+ label {
-    top = 20%
-    height = 35
-    left = 0%
-    width = 100%
-    text = "Welcome to Manjaro"
-    align = "center"
-    font = "DejaVu Sans Regular 48"
-    color = "#ffffff"
 }
 
 + boot_menu {
@@ -52,17 +41,6 @@ terminal-border: "0"
     selected_item_pixmap_style = "select_*.png"
     #menu_pixmap_style = "menu_*.png"
 }
-
-#+ progress_bar {
-#    id = "__timeout__"
-#    left = 0
-#    top = 100%-32
-#    width = 100%
-#    height = 32
-#    show_text = false
-#    bar_style = "progress_bar_*.png"
-#    highlight_style = "progress_bar_hl_*.png"
-#}
 
 + progress_bar {
     id = "__timeout__"
