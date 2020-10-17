@@ -56,10 +56,10 @@ terminal-border: "0"
     bar_style = "progress_bar2_*.png"
 }
 
-+ vbox {
-    left = 50%-125
++ hbox {
+    left = 50%-250
     top = 80%
-    width = 250
+    width = 500
     #+ label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↵] Boot selected OS" }
     #+ label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↑ and ↓ Key] Navigation" }
     + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[E] Edit Boot Options" }
