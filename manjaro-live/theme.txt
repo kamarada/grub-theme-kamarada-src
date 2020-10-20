@@ -14,7 +14,7 @@ terminal-border: "0"
 
 # Logo image
 + image {
-	left = 50%-145
+	left = 30%-250
 	top = 10%-30
     file = "logo.png"
 }
